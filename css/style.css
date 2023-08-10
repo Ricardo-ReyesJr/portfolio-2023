@@ -114,3 +114,15 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+img {
+  width: 1000px;
+}
