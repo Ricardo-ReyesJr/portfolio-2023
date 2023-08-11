@@ -103,13 +103,6 @@ nav ul {
   display: none;
 }
 
-header {
-
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -125,4 +118,77 @@ footer {
 
 img {
   width: 1000px;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+.icon {
+  width: 9.875rem;
+  height: 9.25rem;
+}
+.first-set-skills, .second-set-skills {
+  padding: 2.5rem;
+}
+
+.icon-card {
+  background-color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+.projects {
+  background-color: var(--bg-color);
+  padding: 32px 10px;
+  margin-top: 2rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+  padding: 10px;
+}
+.project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+.project-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container p {
+  text-align: center;
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+.project-card {
+  background-color: #ffffff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+.project-link { 
+  padding: 10px;
 }
