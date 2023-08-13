@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Rochester&display=swap');
 
 /* Box Model Hack */
 * {
@@ -11,9 +11,9 @@
 :root {
   --font-family: 'Poppins', sans-serif;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
+  --primary-color: #7d7463;
+  --secondary-color: #f4e0b9;
+  --primary-shadow: #a8a196;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
@@ -79,6 +79,7 @@ nav {
 
 nav h1 {
   color: var(--primary-color);
+  font-family: 'Rochester', cursive;
 }
 
 nav a {
@@ -125,6 +126,7 @@ img {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  color: var(--primary-color);
 }
 .skill-header {
   margin-bottom: 1rem;
@@ -152,6 +154,7 @@ img {
   background-color: var(--bg-color);
   padding: 32px 10px;
   margin-top: 2rem;
+  color: var(--primary-color);
 }
 
 .project-pic {
@@ -204,6 +207,8 @@ img {
 .about img {
   height: 37.5rem;
   width: 37.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
 }
 .bio {
   width: 25rem;
@@ -225,6 +230,7 @@ img {
 .more-about h2 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  color: var(--primary-color);
 }
 .more-about p {
   line-height: var(--line-height);
@@ -237,6 +243,7 @@ img {
 .contact h2{
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
+  color: var(--primary-color);
 }
 .contact-form-container {
   max-width: 40.75rem;
