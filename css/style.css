@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Rochester&display=swap');
 
 /* Box Model Hack */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 /* variables */
 :root {
   --font-family: 'Poppins', sans-serif;
@@ -24,6 +18,13 @@
 html {
   scroll-behavior: smooth;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Clear fix hack */
 .clearfix:after {
@@ -93,6 +94,9 @@ nav a:hover {
 nav ul {
   display: flex;
   gap: 1.9rem;
+}
+nav ul li {
+  font-weight: bold;
 }
 
 .burger-menu {
@@ -307,4 +311,21 @@ footer {
 .socicon {
   width: 2rem;
   height: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  nav ul {
+    position: fixed;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
 }
