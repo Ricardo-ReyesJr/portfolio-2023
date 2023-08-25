@@ -4,8 +4,8 @@
 :root {
   --font-family: 'Poppins', sans-serif;
   --bg-color: #fcfcfc;
-  --primary-color: #7d7463;
-  --secondary-color: #f4e0b9;
+  --primary-color: #01303f;
+  --secondary-color: #02577a;
   --primary-shadow: #a8a196;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
@@ -347,9 +347,22 @@ footer {
   }
   .project-container {
     width: 20.875rem;
+    align-items: center;
+    margin-left: 8rem;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about img {
+    height: 20.5rem;
+  width: 20.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px var(--primary-shadow);
   }
   .bio {
-    margin-top: -7rem;
+    flex-direction: column;
+    margin-top: 2rem;
     width: 20.5rem;
   }
   .more-about {
