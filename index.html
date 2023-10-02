@@ -8,34 +8,34 @@
 		
 		<title>Ricardo Reyes</title>
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<!-- external Bootstrap link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		
 	</head>
 	<body>
-		<nav>
-			<h1>Ricardo Reyes</h1>
-			<ul class="navigation">
-				<li><a href="#home" class="nav-link">Home</a></li>
-				<li><a href="#skills" class="nav-link">Skills</a></li>
-				<li><a href="#projects" class="nav-link">Projects</a></li>
-				<li><a href="#about" class="nav-link">About Me</a></li>
-				<li><a href="#contact" class="nav-link">Contact Me</a></li>
-				<li><a href="https://ricardo-reyes-resume.netlify.app/" class="nav-link" target="_blank">Resume</a></li>
-			</ul>
-			<button class="burger-menu" id="burger-menu">
-				<ion-icon class="bars" name="menu-outline"></ion-icon>
-			</button>
-		</nav>
+		<header class="justify-content-between navbar-expand-sm">
+			<nav class="navbar navbar-default fixed-top bg-secondary justify-content-between navbar-expand-sm" role="navigation">
+				<h1 class="text-dark">Ricardo Reyes</h1>
+				<ul class="text-dark list-unstyled justify-content-end navbar-expand-sm">
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#skills" class="nav-link">Skills</a></li>
+					<li><a href="#projects" class="nav-link">Projects</a></li>
+					<li><a href="#about" class="nav-link">About Me</a></li>
+					<li><a href="#contact" class="nav-link">Contact Me</a></li>
+					<li><a href="https://ricardo-reyes-resume.netlify.app/" class="nav-link" target="_blank">Resume</a></li>
+				</ul>
+			</nav>
+	</header>
 		<!-- hero section -->
-		<section class="hero" id="home">
-			<img src="images/cover.png" alt="logo of the name ricardo reyes.">
+		<section class="justify-content-end" id="home">
+			<img class="w-100" src="images/cover.png" alt="logo of the name ricardo reyes.">
 		</section>
 
 		<!-- skills -->
-		<section class="skills" id="skills">
-			<h2 class="skill-header">Skills</h2>
-			<div class="skills-wrapper">
+		<section class="justify-content-between" id="skills">
+			<h2 class="text-center">Skills</h2>
+			<div class="justify-content-between align-content-between">
 				<div class="first-set animate_animated animate_pulse">
 					<h3 class="first-set-skills">Frond-End</h3>
 						<img src="images/icons8-html5-48.svg" alt="" loading="lazy" class="icon icon-card">
@@ -56,30 +56,32 @@
 				</div>
 			</div>
 		</section>
-		<section class="projects" id="projects">
-			<h2 class="project-title">Projects</h2>
+		<div class="">
+			
+		</div>
+			<h2 class="text-center">Projects</h2>
 			<div class="project-container">
 				<div class="project-container project-card">
-					<img src="images/DG screenshot.png" alt="Tribute page to elon musk" loading="lazy" class="project-pic"/>
+					<img class="w-50" src="images/DG screenshot.png" alt="Tribute page to elon musk" loading="lazy" class="project-pic"/>
 					<h3 class="project-title">Degenerate Games</h3>
 					<a href="https://degenerate-games.netlify.app/" target="_blank" class="project-link">Take a Look</a>
 				</div>
 				<div class="project-container project-card">
-					<img src="images/sol.png" alt="Mom and daughter business" loading="lazy" class="project-pic"/>
+					<img class="w-50" src="images/sol.png" alt="Mom and daughter business" loading="lazy" class="project-pic"/>
 					<h3 class="project-title">Solemas Creations</h3>
 					<a href="https://solemas-creations.netlify.app/" target="_blank" class="project-link">Take a Look</a>
 				</div>
 				<div class="project-container project-card">
-					<img src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy" class="project-pic"/>
+					<img class="w-50" src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy" class="project-pic"/>
 					<h3 class="project-title">My Resume</h3>
 					<a href="https://ricardo-reyes-resume.netlify.app/" target="_blank" class="project-link">Take a Look</a>
 				</div>
 			</div>
 		</section>
 		<section class="about" id="about">
-			<img src="images/rick.jpeg" alt="picture of rick" loading="lazy" class="hero-img">
+			<img class="w-50" src="images/rick.jpeg" alt="picture of rick" loading="lazy" class="hero-img">
 			<div class="bio animate-animated animate-shakeX">
-				<h2 class="bio-title">About Me</h2>
+				<h2 class="text-center">About Me</h2>
 				<p class="bio-text">
 					Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
 					Please take a look around, and see what I have been up to, let's see what we can build
@@ -88,7 +90,7 @@
 			</div>
 		</section>
 		<section class="more-about">
-			<h2>More About Me</h2>
+			<h2 class="text-center">More About Me</h2>
 			<p>
 				Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about
 				code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll
@@ -102,7 +104,7 @@
 
 		<!-- Contact -->
 		<section class="contact" id="contact">
-			<h2>Get in Touch</h2>
+			<h2 class="text-center">Get in Touch</h2>
 			<div class="contact-form-container">
 				<div class="contact-form">
 					<form action="https://formspree.io/f/mknljvkp" method="POST">
@@ -147,7 +149,7 @@
 			</div>
 		</section>
 		<!-- socila -->
-		<div class="social">
+		<div class="fixed-bottom">
 			<a href="https://twitter.com/RickReyesDev" target="_blank">
 				<img 
 					src="images/icons8-twitter.svg"
@@ -167,14 +169,13 @@
 				loading="lazy"
 				class="socicon"></a>
 		</div>
-		<footer class="footer">
+		<footer class="footer text-center text-md-center font-monospace">
 			<p class="copy">&copy; Copyright 2023</p>
 			<p class="copy">
 				Build by 
 				<a href="https://twitter.com/RickReyesDev">Rick Reyes | FSL</a>
 			</p>
 		</footer>
-
-		<script type="text/javascript" src="js/main.js"></script>
+		<!--Scripts-->
 	</body>
 </html>
