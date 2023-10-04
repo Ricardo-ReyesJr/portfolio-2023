@@ -1,181 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-  	<meta charset="utf-8">
-  	<meta name="description" content="Your description goes here">
-  	<meta name="keywords" content="one, two, three">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta charset="utf-8">
+  		<meta name="description" content="Your description goes here">
+  		<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<title>Ricardo Reyes</title>
 
 		<!-- external Bootstrap link -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/style.css">
 		
 	</head>
+
 	<body>
-		<header class="justify-content-between navbar-expand-sm">
-			<nav class="navbar navbar-default fixed-top bg-secondary justify-content-between navbar-expand-sm" role="navigation">
-				<h1 class="text-dark">Ricardo Reyes</h1>
-				<ul class="text-dark list-unstyled justify-content-end navbar-expand-sm">
-					<li><a href="#home" class="nav-link">Home</a></li>
-					<li><a href="#skills" class="nav-link">Skills</a></li>
-					<li><a href="#projects" class="nav-link">Projects</a></li>
-					<li><a href="#about" class="nav-link">About Me</a></li>
-					<li><a href="#contact" class="nav-link">Contact Me</a></li>
-					<li><a href="https://ricardo-reyes-resume.netlify.app/" class="nav-link" target="_blank">Resume</a></li>
+		<header class="">
+			<nav class="row justify-content-around">
+				<h1 class="col-md-4">Ricardo Reyes</h1>
+				<ul class="list-unstyled col-md-8 row justify-content-evenly">
+					<li class="col-md-1"><a href="#home" class="nav-link">Home</a></li>
+					<li class="col-md-1"><a href="#skills" class="nav-link">Skills</a></li>
+					<li class="col-md-1"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="col-md-2"><a href="#about" class="nav-link">About Me</a></li>
+					<li class="col-md-2"><a href="#contact" class="nav-link">Contact Me</a></li>
+					<li class="col-md-1"><a href="https://ricardo-reyes-resume.netlify.app/" class="nav-link" target="_blank">Resume</a></li>
 				</ul>
 			</nav>
-	</header>
-		<!-- hero section -->
-		<section class="justify-content-end" id="home">
-			<img class="w-100" src="images/cover.png" alt="logo of the name ricardo reyes.">
-		</section>
+		</header>
 
-		<!-- skills -->
-		<section class="justify-content-between" id="skills">
-			<h2 class="text-center">Skills</h2>
-			<div class="justify-content-between align-content-between">
-				<div class="first-set animate_animated animate_pulse">
-					<h3 class="first-set-skills">Frond-End</h3>
-						<img src="images/icons8-html5-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-css3-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-javascript-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-react-js-40.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-node-js-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-bootstrap-48.svg" alt="" loading="lazy" class="icon icon-card">
-				</div>
-				<div class="second-set animate_animated animate_pulse">
-						<h3 class="second-set-skills">Back-End</h3>
-						<img src="images/icons8-postgresql-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-mongodb-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-javascript-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-python-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-node-js-48.svg" alt="" loading="lazy" class="icon icon-card">
-						<img src="images/icons8-flask-50.svg" alt="" loading="lazy" class="icon icon-card">
-				</div>
-			</div>
-		</section>
-		<div class="">
-			
-		</div>
-			<h2 class="text-center">Projects</h2>
-			<div class="project-container">
-				<div class="project-container project-card">
-					<img class="w-50" src="images/DG screenshot.png" alt="Tribute page to elon musk" loading="lazy" class="project-pic"/>
-					<h3 class="project-title">Degenerate Games</h3>
-					<a href="https://degenerate-games.netlify.app/" target="_blank" class="project-link">Take a Look</a>
-				</div>
-				<div class="project-container project-card">
-					<img class="w-50" src="images/sol.png" alt="Mom and daughter business" loading="lazy" class="project-pic"/>
-					<h3 class="project-title">Solemas Creations</h3>
-					<a href="https://solemas-creations.netlify.app/" target="_blank" class="project-link">Take a Look</a>
-				</div>
-				<div class="project-container project-card">
-					<img class="w-50" src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy" class="project-pic"/>
-					<h3 class="project-title">My Resume</h3>
-					<a href="https://ricardo-reyes-resume.netlify.app/" target="_blank" class="project-link">Take a Look</a>
-				</div>
-			</div>
-		</section>
-		<section class="about" id="about">
-			<img class="w-50" src="images/rick.jpeg" alt="picture of rick" loading="lazy" class="hero-img">
-			<div class="bio animate-animated animate-shakeX">
-				<h2 class="text-center">About Me</h2>
-				<p class="bio-text">
-					Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
-					Please take a look around, and see what I have been up to, let's see what we can build
-					together.
-				</p>
-			</div>
-		</section>
-		<section class="more-about">
-			<h2 class="text-center">More About Me</h2>
-			<p>
+	<!-- About -->
+	<section class="about mt-4 ml-4 row justify-content-around" id="about">
+		<img class="rickPicture w-25 mt-4col-md-6" src="images/rick.jpeg" alt="picture of rick" loading="lazy" class="hero-img">
+		<div class="bio animate-animated animate-shakeX col-md-6">
+			<h2 class="text-center">About Me</h2>
+			<p class="bio-text">
+				Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
+				Please take a look around, and see what I have been up to, let's see what we can build
+				together.
+			</p>
+			<p class="">
 				Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about
 				code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll
-				figure out the answer and rush to my computer.
-			</p>
-			<p>
-				My name is Ricardo Reyes, I'm passionate about coding, passionate about new technologies, and passionate about software engineering
+				figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering
 				who will do what ever it takes to find an answer.
 			</p>
-		</section>
+			<p class="">
+				I made my personal portfolio website using HTML, CSS, and Bootstrap.
+			</p>
+		</div>
+	</section>
 
-		<!-- Contact -->
-		<section class="contact" id="contact">
-			<h2 class="text-center">Get in Touch</h2>
-			<div class="contact-form-container">
-				<div class="contact-form">
-					<form action="https://formspree.io/f/mknljvkp" method="POST">
-						<div class="form-control">
-							<label for="name">Name</label>
-							<input
-								type="text"
-								id="name"
-								name="sender-name"
-								placeholder="Enter Your Name"
-								class="input-field"
-								required>
-						</div>
-						<div class="form-control">
-							<label for="email">Email</label>
-							<input
-								type="email"
-								id="email"
-								name="sender-email"
-								placeholder="Enter Your Email"
-								class="input-field"
-								required>
-						</div>
-						<div class="form-control">
-							<label for="message">Message</label>
-							<textarea
-								id="message"
-								cols="60"
-								rows="10"
-								placeholder="Enter Your Message"
-								name="message"
-								class="input-field"
-								required></textarea>
-						</div>
+	<!-- skills -->
+	<section class="mt-5 mb-8 row" id="skills">
+		<h2 class="text-center">Skills</h2>
+		<div class="row mt-4 mb-8">
+			<div class="col-md-6">
+				<h3 class="first-set-skills text-center">Frond-End</h3>
+				<div class="text-center">
+					<img class="w-25" src="images/icons8-html5-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-css3-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-javascript-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/astro.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-tailwindcss.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-bootstrap-48.svg" alt="" loading="lazy" class="icon icon-card">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h3 class="second-set-skills text-center">Back-End</h3>
+				<div class="text-canter">
+					<img class="w-25" src="images/icons8-postgresql-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-mongodb-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-java (1).svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-python-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-node-js-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/fastapi (1).svg" alt="" loading="lazy" class="icon icon-card">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="justify-content-around">
+		<h2 class="text-center mb-4 mt-4" id="projects">Projects</h2>
+		<div class="project-container row text-center">
+			<div class="project-container project-card col-md-4">
+				<a class="text-white" href="https://degenerate-games.netlify.app/" target="_blank" class="project-link">
+					<img class="w-50 rounded-1" src="images/DG screenshot.png" alt="Tribute page to elon musk" loading="lazy" class="project-pic"/>
+				</a>
+				<h3 class="project-title mt-4 mb-2">Degenerate Games</h3>
+				<p>This website was made using the Astro framework, HTML and Tailwind.</p>
+			</div>
+			<div class="project-container project-card col-md-4">
+				<a class="text-white" href="https://solemas-creations.netlify.app/" target="_blank" class="project-link">
+					<img class="w-50 rounded-1 justify-content-center" src="images/sol.png" alt="Mom and daughter business" loading="lazy" class="project-pic"/>
+				</a>
+				<h3 class="project-title mt-4 mb-2">Solemas Creations</h3>
+				<p>This website was made using HTML and CSS.</p>
+			</div>
+			<div class="project-container project-card col-md-4">
+				<a class="text-white" href="https://ricardo-reyes-resume.netlify.app/" target="_blank" class="project-link">
+					<img class="w-50 rounded-1" src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy" class="project-pic"/>
+				</a>
+				<h3 class="project-title mt-4 mb-2">My Resume</h3>
+				<p>This website was made using HTML and CSS.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section class="container d-flex justify-content-center min-vh-100 align-items-center" id="contact">
+		<div class="contact-form-container w-50">
+			<h2 class="text-center mt-4">Get in Touch</h2>
+			<div class="contact-form text-center">
+				<form action="https://formspree.io/f/mknljvkp" method="POST">
+					<div class="form-control">
+						<label for="name">Name</label>
+						<input
+							type="text"
+							id="name"
+							name="sender-name"
+							placeholder="Enter Your Name"
+							class="input-field"
+							required>
+					</div>
+					<div class="form-control">
+						<label for="email">Email</label>
+						<input
+							type="email"
+							id="email"
+							name="sender-email"
+							placeholder="Enter Your Email"
+							class="input-field"
+							required>
+					</div>
+					<div class="form-control">
+						<label for="message">Message</label>
+						<textarea
+							id="message"
+							cols="60"
+							rows="10"
+							placeholder="Enter Your Message"
+							name="message"
+							class="input-field"
+							required></textarea>
+					</div>
+					<div class="text-center">
 						<input
 							type="submit"
 							value="Submit"
 							id="submit-btn"
-							class="submit-btn">
-					</form>
-				</div>
+							class="submit-btn mb-4">
+					</div>	
+				</form>
 			</div>
-		</section>
-		<!-- socila -->
-		<div class="fixed-bottom">
-			<a href="https://twitter.com/RickReyesDev" target="_blank">
-				<img 
-					src="images/icons8-twitter.svg"
-					alt="twitter"
-					loading="lazy"
-					class="socicon">
-			</a>
-			<a href="https://www.linkedin.com/in/ricardo-reyes-dev/" target="_blank">
-				<img src="images/icons8-linkedin.svg"
-				alt="linkedin"
+		</div>
+	</section>
+
+	<!-- social -->
+	<div class="text-end fixed-bottom">
+		<a href="https://twitter.com/RickReyesDev" target="_blank">
+			<img 
+				src="images/icons8-twitter.svg"
+				alt="twitter"
 				loading="lazy"
 				class="socicon">
-			</a>
-			<a href="https://github.com/Ricardo-ReyesJr" target="_blank">
-				<img src="images/icons8-github.svg"
-				alt="github"
-				loading="lazy"
-				class="socicon"></a>
-		</div>
-		<footer class="footer text-center text-md-center font-monospace">
+		</a>
+		<a href="https://www.linkedin.com/in/ricardo-reyes-dev/" target="_blank">
+			<img src="images/icons8-linkedin.svg"
+			alt="linkedin"
+			loading="lazy"
+			class="socicon">
+		</a>
+		<a href="https://github.com/Ricardo-ReyesJr" target="_blank">
+			<img src="images/icons8-github.svg"
+			alt="github"
+			loading="lazy"
+			class="socicon"></a>
+	</div>
+	<footer class="footer text-center text-md-center font-monospace row justify-content-evenly">
+		<div class="col-md-6">
 			<p class="copy">&copy; Copyright 2023</p>
+		</div>
+		<div class="col-md-6">
 			<p class="copy">
-				Build by 
-				<a href="https://twitter.com/RickReyesDev">Rick Reyes | FSL</a>
+				Build & Designed by Ricardo Reyes
 			</p>
-		</footer>
-		<!--Scripts-->
+		</div>
+	</footer>
+
+	<!--Scripts-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 	</body>
 </html>
