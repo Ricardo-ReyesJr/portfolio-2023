@@ -15,6 +15,10 @@ header {
   background-color: #040D12;
   border-bottom: 3px solid #5F262F;
 }
+
+.collapse ul>li>a {
+  color: #DCEEF0;
+}
 h1 {
   font-family: 'Rochester', sans-serif;
 }

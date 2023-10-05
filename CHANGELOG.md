@@ -30,3 +30,5 @@ Changes made:
 
     [ https://formspree.io/f/mknljvkp ]
 
+## Wednesday 100423.2200
+Completed the responsiveness, there are still small details that need to be fixed or changed. The hamburger menu is working with no hickups. The only noticable problem is the contact form that the message area remain too long. The changes are good enough to deploy.
