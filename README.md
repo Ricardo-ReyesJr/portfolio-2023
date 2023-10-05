@@ -1,18 +1,2 @@
 # portfolio-2023
-*Finally!* I get to deploy my portfolio. I know it is not the best or the greatest. Yet, I am out there. I will be doing changes
-to the code as I have time to improve the website. I will change the projects as I start building better ones.
-
-Monday 100223.2231
-
-Changing the look and Style of the Personal Portfolio.
-
-Changes made:
-
-*   Changed the colors
-*   removed the hero section.
-*   cleaned the css and added bootstrap. for a cleaner and more straight forward look. kept the css for some customization like the img. the borders on the nav bar and the colors plus some shadowing.
-
-Tuesday 100323.2132
-
-    Almost done with the changes from the previous to a more darker and cleaner look to my portfolio page.
-*   Key for contact form [ https://formspree.io/f/mknljvkp ]
+This is my personal portfolio, with an introduction of myself, my skills, and some of my projects. I also include a contact section to be contacted. The technologies used are HTML & CSS using FormSpree for the contact form. I will included the changes on the CHANGELOG.md as I change and add technologies to my personal portfolio.

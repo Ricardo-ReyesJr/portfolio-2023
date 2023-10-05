@@ -15,7 +15,7 @@
 	</head>
 
 	<body>
-		<header class="">
+		<header>
 			<nav class="row justify-content-around">
 				<h1 class="col-md-4">Ricardo Reyes</h1>
 				<ul class="list-unstyled col-md-8 row justify-content-evenly">
@@ -30,22 +30,22 @@
 		</header>
 
 	<!-- About -->
-	<section class="about mt-4 ml-4 row justify-content-around" id="about">
-		<img class="rickPicture w-25 mt-4col-md-6" src="images/rick.jpeg" alt="picture of rick" loading="lazy" class="hero-img">
-		<div class="bio animate-animated animate-shakeX col-md-6">
+	<section class="mt-4 ml-4 row justify-content-around" id="about">
+		<img class="rickPicture w-25 mt-4 col-md-6" src="images/rick.jpeg" alt="picture of rick" loading="lazy">
+		<div class="bio col-md-6">
 			<h2 class="text-center">About Me</h2>
-			<p class="bio-text">
+			<p class="bioText">
 				Hi there, I'm Ricardo Reyes, I am a full stack software engineer.
 				Please take a look around, and see what I have been up to, let's see what we can build
 				together.
 			</p>
-			<p class="">
+			<p>
 				Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I am always thinking about
 				code this passion often leads me to solving my coding problems, while gaming, playing music, family time or grilling. I'll
 				figure out the answer and rush to my computer. I'm passionate about coding, passionate about new technologies, and passionate about software engineering
 				who will do what ever it takes to find an answer.
 			</p>
-			<p class="">
+			<p>
 				I made my personal portfolio website using HTML, CSS, and Bootstrap.
 			</p>
 		</div>
@@ -56,52 +56,53 @@
 		<h2 class="text-center">Skills</h2>
 		<div class="row mt-4 mb-8">
 			<div class="col-md-6">
-				<h3 class="first-set-skills text-center">Frond-End</h3>
+				<h3 class="frontEndSkills text-center">Frond-End</h3>
 				<div class="text-center">
-					<img class="w-25" src="images/icons8-html5-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-css3-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-javascript-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/astro.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-tailwindcss.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-bootstrap-48.svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-html5-48.svg" alt="html" loading="lazy">
+					<img class="w-25" src="images/icons8-css3-48.svg" alt="css" loading="lazy">
+					<img class="w-25" src="images/icons8-javascript-48.svg" alt="javaScript" loading="lazy">
+					<img class="w-25" src="images/astro.svg" alt="astro" loading="lazy">
+					<img class="w-25" src="images/icons8-tailwindcss.svg" alt="tailwindcss" loading="lazy">
+					<img class="w-25" src="images/icons8-bootstrap-48.svg" alt="bootstrap" loading="lazy">
 				</div>
 			</div>
 			<div class="col-md-6">
-				<h3 class="second-set-skills text-center">Back-End</h3>
+				<h3 class="backEndSkills text-center">Back-End</h3>
 				<div class="text-canter">
-					<img class="w-25" src="images/icons8-postgresql-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-mongodb-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-java (1).svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-python-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/icons8-node-js-48.svg" alt="" loading="lazy" class="icon icon-card">
-					<img class="w-25" src="images/fastapi (1).svg" alt="" loading="lazy" class="icon icon-card">
+					<img class="w-25" src="images/icons8-postgresql-48.svg" alt="postgresql" loading="lazy">
+					<img class="w-25" src="images/icons8-mongodb-48.svg" alt="mongodb" loading="lazy">
+					<img class="w-25" src="images/icons8-java (1).svg" alt="java" loading="lazy">
+					<img class="w-25" src="images/icons8-python-48.svg" alt="python" loading="lazy">
+					<img class="w-25" src="images/icons8-node-js-48.svg" alt="nodeJs" loading="lazy">
+					<img class="w-25" src="images/fastapi (1).svg" alt="fastapi" loading="lazy">
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<!-- projects -->
 	<section class="justify-content-around">
 		<h2 class="text-center mb-4 mt-4" id="projects">Projects</h2>
-		<div class="project-container row text-center">
-			<div class="project-container project-card col-md-4">
-				<a class="text-white" href="https://degenerate-games.netlify.app/" target="_blank" class="project-link">
-					<img class="w-50 rounded-1" src="images/DG screenshot.png" alt="Tribute page to elon musk" loading="lazy" class="project-pic"/>
+		<div class="projectContainer row text-center">
+			<div class="projectContainer projectCard  col-md-4">
+				<a class="text-white" href="https://degenerate-games.netlify.app/" target="_blank">
+					<img class="w-50 rounded-1" src="images/DG screenshot.png" alt="Degenerate Games" loading="lazy"/>
 				</a>
-				<h3 class="project-title mt-4 mb-2">Degenerate Games</h3>
+				<h3 class="mt-4 mb-2">Degenerate Games</h3>
 				<p>This website was made using the Astro framework, HTML and Tailwind.</p>
 			</div>
-			<div class="project-container project-card col-md-4">
-				<a class="text-white" href="https://solemas-creations.netlify.app/" target="_blank" class="project-link">
-					<img class="w-50 rounded-1 justify-content-center" src="images/sol.png" alt="Mom and daughter business" loading="lazy" class="project-pic"/>
+			<div class="projectContainer projectCard col-md-4">
+				<a class="text-white" href="https://solemas-creations.netlify.app/" target="_blank">
+					<img class="w-50 rounded-1 justify-content-center" src="images/sol.png" alt="Mom and daughter business" loading="lazy"/>
 				</a>
-				<h3 class="project-title mt-4 mb-2">Solemas Creations</h3>
+				<h3 class="mt-4 mb-2">Solemas Creations</h3>
 				<p>This website was made using HTML and CSS.</p>
 			</div>
-			<div class="project-container project-card col-md-4">
-				<a class="text-white" href="https://ricardo-reyes-resume.netlify.app/" target="_blank" class="project-link">
-					<img class="w-50 rounded-1" src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy" class="project-pic"/>
+			<div class="projectContainer projectCard col-md-4">
+				<a class="text-white" href="https://ricardo-reyes-resume.netlify.app/" target="_blank">
+					<img class="w-50 rounded-1" src="images/rr_res.png" alt="This is my resume using html and css" loading="lazy"/>
 				</a>
-				<h3 class="project-title mt-4 mb-2">My Resume</h3>
+				<h3 class="mt-4 mb-2">My Resume</h3>
 				<p>This website was made using HTML and CSS.</p>
 			</div>
 		</div>
@@ -109,9 +110,9 @@
 
 	<!-- Contact -->
 	<section class="container d-flex justify-content-center min-vh-100 align-items-center" id="contact">
-		<div class="contact-form-container w-50">
+		<div class="contactFormContainer w-50">
 			<h2 class="text-center mt-4">Get in Touch</h2>
-			<div class="contact-form text-center">
+			<div class="contactForm text-center">
 				<form action="https://formspree.io/f/mknljvkp" method="POST">
 					<div class="form-control">
 						<label for="name">Name</label>
@@ -162,27 +163,24 @@
 			<img 
 				src="images/icons8-twitter.svg"
 				alt="twitter"
-				loading="lazy"
-				class="socicon">
+				loading="lazy">
 		</a>
 		<a href="https://www.linkedin.com/in/ricardo-reyes-dev/" target="_blank">
 			<img src="images/icons8-linkedin.svg"
 			alt="linkedin"
-			loading="lazy"
-			class="socicon">
+			loading="lazy">
 		</a>
 		<a href="https://github.com/Ricardo-ReyesJr" target="_blank">
 			<img src="images/icons8-github.svg"
 			alt="github"
-			loading="lazy"
-			class="socicon"></a>
+			loading="lazy"></a>
 	</div>
 	<footer class="footer text-center text-md-center font-monospace row justify-content-evenly">
 		<div class="col-md-6">
-			<p class="copy">&copy; Copyright 2023</p>
+			<p>&copy; Copyright 2023</p>
 		</div>
 		<div class="col-md-6">
-			<p class="copy">
+			<p>
 				Build & Designed by Ricardo Reyes
 			</p>
 		</div>
