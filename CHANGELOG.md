@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 082523.2123
 * contrast error corrected to darker colors.
 * fixed the about me bio and aligned it correctly when resposive.
@@ -32,3 +33,10 @@ Changes made:
 
 ## Wednesday 100423.2200
 Completed the responsiveness, there are still small details that need to be fixed or changed. The hamburger menu is working with no hickups. The only noticable problem is the contact form that the message area remain too long. The changes are good enough to deploy.
+=======
+## Date 8-25-23
+* contrast error corrected to darker colors.
+* fixed the about me bio and aligned it correctly when resposive.
+* adjusted the sizing of the image to be more visilbe.
+* fixed the alignment for some of the sections.
+>>>>>>> 5d0cf75 (finish the changes from the last commit)
